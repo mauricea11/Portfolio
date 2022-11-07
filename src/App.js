@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1 className="loading-text">LOADING </h1>
       <h2 className="loading-text">{loadingNums}%</h2>
-      <button onClick={increLoadingNums}>click</button>
+      <button onClick={increLoadingNums}>click me</button>
     </div>
   );
 }
