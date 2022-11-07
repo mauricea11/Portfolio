@@ -1,5 +1,17 @@
+@font-face {
+  font-family: Silkscreen-Regular;
+  src: url(/Users/mauriceaugust/Portfolio/portfolio/fonts/Silkscreen-Regular.ttf);
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  height: 800px;
+  background-color: #1989da;
+  color: white;
+  font-family: silkscreen;
 }
 
 .App-logo {
