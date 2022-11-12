@@ -21,6 +21,9 @@ function App() {
       </section>
       <section className="work">
         <h2>Check out my work</h2>
+        <div className="hr-container">
+          <hr />
+        </div>
         <div className="card-container">
           <div className="card">
             <div className="front">Stemkasa Landing Page</div>
@@ -42,66 +45,30 @@ function App() {
       </section>
       <section className="other-interests">
         <h2>Only Code? Boring... What else do you do?</h2>
-        <div className="contain">
-          <div className="row">
-            <div className="row__inner">
-              <div className="tile">
-                <div className="tile__media">
-                  <img
-                    className="tile__img"
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="tile__details">
-                  <div className="tile__title">Top Gear</div>
-                </div>
-              </div>
-
-              <div className="tile">
-                <div className="tile__media">
-                  <img
-                    className="tile__img"
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="tile__details">
-                  <div className="tile__title">Top Gear</div>
-                </div>
-              </div>
-
-              <div className="tile">
-                <div className="tile__media">
-                  <img
-                    className="tile__img"
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-17.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="tile__details">
-                  <div className="tile__title">Top Gear</div>
-                </div>
-              </div>
-
-              <div className="tile">
-                <div className="tile__media">
-                  <img
-                    className="tile__img"
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-18.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="tile__details">
-                  <div className="tile__title">Top Gear</div>
-                </div>
-              </div>
-            </div>
+        <div className="otherimagesandtext">
+          <div id="gamertext" className="otherimagetext">
+            <h2>I'm a gamer and Twitch streamer</h2>
           </div>
+          <div id="gamerimage"></div>
+        </div>
+        <div className="otherimagesandtext">
+          <div id="cheftext" className="otherimagetext">
+            <h2>...and an amateur chef</h2>
+          </div>
+          <div id="chefimage"></div>
+        </div>
+        <div className="otherimagesandtext">
+          <div id="movietext" className="otherimagetext">
+            <h2>...and also a movie fanatic</h2>
+          </div>
+          <div id="movieimage"></div>
         </div>
       </section>
       <section className="skills-section">
-        <h1>My Skills</h1>
+        <h2>My Skills</h2>
+        <div className="hr-container">
+          <hr />
+        </div>
         <div className="listofskills">
           <ul>
             <li className="skill-item">
@@ -131,6 +98,20 @@ function App() {
           </ul>
         </div>
       </section>
+      <footer>
+        <h2>Contact Me</h2>
+        <div className="hr-container">
+          <hr />
+        </div>
+        <div className="links">
+          <a href="#" target="blank">
+            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-github-community-for-software-building-and-testing-online-logo-color-tal-revivo.png" />
+          </a>
+          <a href="#" target="blank">
+            <img src="https://img.icons8.com/ios-filled/55/null/linkedin.png" />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
